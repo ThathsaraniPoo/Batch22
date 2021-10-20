@@ -1,0 +1,18 @@
+<suite name="Suite1" verbose="1" >
+    <test name="TestNGSuits" >
+        <groups>
+            <run>
+                <include name="smoke"/>
+
+            </run>
+        </groups>
+        <classes>
+            <class name="testng.groups.TestNGGroupsTest1" />
+            <class name="testng.groups.TestNGGroupsTest2" />
+            <class name="testng.groups.TestNGGroupsTest3" />
+            <class name="testng.groups.TestNGGroupsTest4" />
+
+        </classes>
+    </test>
+
+</suite>
